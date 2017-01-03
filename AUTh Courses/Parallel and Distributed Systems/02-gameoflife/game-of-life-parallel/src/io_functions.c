@@ -15,9 +15,9 @@ void print (int *board, int N) {
 
     /* print each column position... */
     for (i=0; i<N; i++) {
+       /*Prind a different board for each individual task*/
       printf ("%c", Board(i,j) ? 'x' : ' ');
-    }
-
+    }   
     /* followed by a carriage return */
     printf ("\n");
   }
